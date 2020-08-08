@@ -1,4 +1,4 @@
-# README: C++ AI-based GAME
+# README: C++ AI-based Game
 
 First of all, at the start of the game, the layout is based on a graph, which connect nodes and super-nodes. The graph will be represented by a NxN matrix of nodes. Also, vectors of vectors of nodes, representing such Graph, were chosen due to their Big O properties of O(1) access and given that we can know beforehand the maximum size of the vector. Therefore, no resizing is necessary, which takes a lot of memory and space to compute automatically. Each node is an object, which replaces each element in the NxN matrix, with the following attributes:
 1.	Edges: These point to other nodes, establishing the edges among them (links) in our NxN grid. There is one for each direction: right, left, up and down.
